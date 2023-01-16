@@ -8,6 +8,7 @@ df = pd.read_csv("data/players_21.csv")
 #============================================================
 name = df.loc[:,'short_name']
 
+#print("hello")
 #============================================================
 name_players_1 = dcc.Dropdown(
     options=[
