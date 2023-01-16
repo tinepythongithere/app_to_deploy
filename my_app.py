@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 from dash.dependencies import Input, Output
 
-df = pd.read_csv("data/players_21.csv")
+df = pd.read_csv("https://github.com/tinepythongithere/app_to_deploy/blob/main/data/players_21.csv")
 #============================================================
 name = df.loc[:,'short_name']
 
